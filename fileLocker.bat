@@ -49,7 +49,6 @@ goto converter
 if %md5: =% equ %password% ( goto correct) else ( goto  failed)
 
 :correct
-echo Hurrah!you cracked the password it was %userpass%
 if EXIST "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" (
 	attrib -h -s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
 	ren "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" Locker
@@ -61,7 +60,7 @@ if EXIST "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" (
 )
 goto converter
 :failed
-echo Wrong pass
+echo your password is wrong!
 goto converter
 
 :exit
