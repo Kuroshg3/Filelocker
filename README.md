@@ -17,6 +17,10 @@ open your bat file with an editor paste your hashed password after "set password
 
 (if you can't open the file with your editor rename it to "FileLocker.txt" apply your changes and again rename it to "FileLocker.bat"
 
+your password place: 
+![password place](https://github.com/Kuroshg3/Filelocker/blob/master/where_is_password.png)
+:)
+
 ### notice! this program does not have good protection!
 This program is very simple and it will only hides your files from file explorer!
 There are no security features in this program!
